@@ -1,0 +1,69 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bb8655b5-ca3d-4aaf-8979-cdbfbb70a000)
+
+  (paper "A4")
+
+  (title_block
+    (title "Remote Interface ")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 344.17 238.76) (size 318.77 194.31) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 15d1a849-7dd1-4cf6-abb8-546c969af1a4)
+    (property "Sheetname" "High_Side_Switch_and_Current_Measurement" (at 344.17 238.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "High_Side_Switch_and_Current_Measurement.kicad_sch" (at 344.17 433.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "james_ewing_ee_design_take_home"
+        (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 344.17 1.27) (size 316.23 212.09) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 337230e9-640f-448f-882e-1b8efd3300b2)
+    (property "Sheetname" "Remote_RS485_Interface" (at 344.17 0.5584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Remote_RS485_Interface.kicad_sch.kicad_sch" (at 344.17 213.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "james_ewing_ee_design_take_home"
+        (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 2.54 238.76) (size 295.91 193.04) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e5e83f0a-dec8-4fcd-9413-1dc5e0819777)
+    (property "Sheetname" "Local_RS485_Interface" (at 2.54 238.0484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Local_RS485_Interface.kicad_sch" (at 2.54 432.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "james_ewing_ee_design_take_home"
+        (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
