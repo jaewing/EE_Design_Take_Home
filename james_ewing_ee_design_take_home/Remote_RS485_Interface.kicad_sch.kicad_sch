@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Remote Interface Communication Circuit")
+  )
+
   (lib_symbols
     (symbol "Connector:RJ45" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -5.08 13.97 0)
@@ -1245,6 +1249,10 @@
     (uuid f75f9882-1872-448b-be70-14a877ae5aec)
   )
 
+  (text "Terminating \nResistor" (at 123.19 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 09375958-9f3e-40c0-9722-18600639148b)
+  )
   (text "USB to UART Interface" (at 36.83 27.94 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 0b8d7682-3eef-41a9-ba9a-c462f7607a93)

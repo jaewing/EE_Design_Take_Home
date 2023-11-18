@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Local Interface Communication Circuit")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0.254 3.048 0)
@@ -1609,7 +1613,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 403a4fce-6c46-458b-8408-9a056f4c0cb0)
   )
-  (text "ADC on ESP8266 is 10bit giving us \na range of 0 to 1023. This results\nin a 9.775mA resolution. "
+  (text "ADC on ESP8266 is 10bit giving us \na range of 0 to 1023. This results\nin a 9.765mA resolution. "
     (at 111.76 77.47 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 59d552a0-6a47-4605-9495-2a7e87db1b02)
@@ -1622,10 +1626,18 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 732ff971-8589-48af-afd0-8590df500dec)
   )
+  (text "Terminating \nResistor" (at 64.77 168.91 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b4adbf32-d9c9-4f4b-add0-49951bf784ce)
+  )
   (text "Twisted Pair chosen is \"Orange White\" and \"Orange\" \nwhich are Pin 1 and Pin 2 respectively. T568B Pinout Used."
     (at 90.17 187.96 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bbf9c847-82df-4adf-a09e-138aed2dc980)
+  )
+  (text "ESP8266 Microcontroller" (at 60.96 20.32 0)
+    (effects (font (size 2 2)) (justify right bottom))
+    (uuid c59e824a-5f4f-40b9-8069-b9455e5819b3)
   )
   (text "Mysterious Circuit that \nturns 5V to 3.3V :)" (at 201.93 60.96 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
