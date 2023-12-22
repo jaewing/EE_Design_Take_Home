@@ -883,6 +883,11 @@
     (uuid ffa1f454-fd32-49b7-8dcf-a2beb5105237)
   )
 
+  (text "Version 1 (Not Viable due to\nLimited Voltage Input Range)"
+    (at 179.07 175.26 0)
+    (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
+    (uuid 15eef81a-489f-479e-b582-8bd65e240262)
+  )
   (text "3v3" (at 87.63 45.72 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 35b94021-75dd-4311-97d9-724649332207)
@@ -916,7 +921,7 @@
     (uuid 8210f5af-3f45-4e59-8f24-13c849867b2e)
   )
   (text "High Side Switch" (at 24.13 77.47 0)
-    (effects (font (size 2 2)) (justify left bottom))
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 852b9177-7bcc-4c7c-8eaa-9a25cda084f1)
   )
   (text "V_thresholdmax = -20V\nV_thresholdmin = -4V \n( 4V ~ Miller Plateau)"
@@ -924,8 +929,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e7c42b4-064b-4a91-8715-4a433ac37cb8)
   )
-  (text "Current Measurement" (at 26.67 29.21 0)
-    (effects (font (size 2 2)) (justify left bottom))
+  (text "Current Measurement" (at 21.59 30.48 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 9db706ca-5456-41f1-b295-f2a25bf474e6)
   )
   (text "NMOS FET requires a Vg greater the Vd\nto achieve the Vgs necessary to turn\nthe switch ON. Therefore harder to \ndrive than PMOS as a seperate supply\nis necessary. Since switching at less\nthan a Hz the conduction losses of PMOS\nwill be negligible and therefore I \nbelieve is the better choice for the \napplication of a high side switch. "
