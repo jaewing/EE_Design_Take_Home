@@ -12,53 +12,19 @@
   )
 
 
-  (sheet (at 342.9 474.98) (size 321.31 182.88) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1490be97-08f9-49e0-9e87-88998fd05f43)
-    (property "Sheetname" "Power" (at 342.9 474.2684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 342.9 658.4446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "james_ewing_ee_design_take_home"
-        (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "6"))
-      )
-    )
-  )
-
   (sheet (at 344.17 238.76) (size 318.77 194.31) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 15d1a849-7dd1-4cf6-abb8-546c969af1a4)
-    (property "Sheetname" "High_Side_Switch_and_Current_Measurement_Zener" (at 344.17 238.0484 0)
+    (property "Sheetname" "High_Side_Switch_and_Current_Measurement" (at 344.17 238.0484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "High_Side_Switch_and_Current_Measurement_Zener.kicad_sch" (at 344.17 433.6546 0)
+    (property "Sheetfile" "High_Side_Switch_and_Current_Measurement.kicad_sch" (at 344.17 433.6546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "james_ewing_ee_design_take_home"
         (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 2.54 476.25) (size 297.18 184.15) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2dfa5f28-4bef-4666-b0c8-079071f34bcc)
-    (property "Sheetname" "High_Side_Switch_and_Current_Measurement_GateDriver" (at 2.54 475.5384 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "High_Side_Switch_and_Current_Measurement_GateDriver.kicad_sch" (at 2.54 660.9846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "james_ewing_ee_design_take_home"
-        (path "/bb8655b5-ca3d-4aaf-8979-cdbfbb70a000" (page "5"))
       )
     )
   )

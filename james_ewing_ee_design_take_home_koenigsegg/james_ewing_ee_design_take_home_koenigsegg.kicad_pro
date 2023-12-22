@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "james_ewing_ee_design_take_home.kicad_pro",
+    "filename": "james_ewing_ee_design_take_home_koenigsegg.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -334,10 +334,6 @@
     [
       "e5e83f0a-dec8-4fcd-9413-1dc5e0819777",
       "Local_RS485_Interface"
-    ],
-    [
-      "15d1a849-7dd1-4cf6-abb8-546c969af1a4",
-      "High_Side_Switch_and_Current_Measurement_Zener"
     ],
     [
       "2dfa5f28-4bef-4666-b0c8-079071f34bcc",
