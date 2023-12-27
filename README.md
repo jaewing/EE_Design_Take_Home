@@ -1,6 +1,9 @@
-## Remote High Side Switch and Current Sensor Circuit Design Challenge
+## James Matthew Ewing Portfolio
+Link to Final Presentation from my Internship with Daimler Truck North America: https://docs.google.com/presentation/d/12Z3-xcJwW0SwgyYgl4DIO1SLB77G0aB_/edit?usp=sharing&ouid=116086964189987025551&rtpof=true&sd=true
 
 GitHub Repository: https://github.com/jaewing/EE_Design_Take_Home.git
+
+### Remote High Side Switch and Current Sensor Circuit Design Challenge
 
 This repository contains all the KiCAD files and documentation to satisfy the design requirements outlined in the first two pages of the PDF titled "Main_Document" in the Documents folder. 
 
